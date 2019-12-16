@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>feedback form</title>
+
+<!-- bootstrap-3.3.7 -->
+<link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+<script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+<!-- JQUERY -->
+<script type="text/javascript" language="javascript" src="jquery/jquery.js"></script>
+
+<link href="style/style.css" rel="stylesheet" type="text/css" media="all"/>
+<script type="text/javascript" language="javascript" src="style/style.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="4.png" />
+            <p id="profile-name" class="profile-name-card">feedback</p>
+            <form class="form-signin" action="contact_action.php" method="">
+                
+                <input type="name" id="name" name="name" class="form-control" placeholder="username" required autofocus>
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" name="email" class="form-control" placeholder="email" required>
+                <input type="text"  name="address" class="form-control" placeholder="address" required>
+                <textarea name="comment" cols="30" rows="5" id="comment" class="bodytext"></textarea>
+                <br>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit"  name="signup">Submit</button>
+                
+
+
+            </form>
+            
+        </div>
+</div>
+
+
+</body>
+</html>
